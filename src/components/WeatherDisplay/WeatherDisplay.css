@@ -1,0 +1,19 @@
+.WeatherDisplay {
+    
+    color: black;
+    padding-top: 2rem;
+    padding-left: 3rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.WeatherDisplay-today {
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    color: #2c3e50;
+    padding: 1.5rem 1rem;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+}

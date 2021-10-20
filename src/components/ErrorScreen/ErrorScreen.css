@@ -1,0 +1,52 @@
+.ErrorScreen {
+    background-color: #6294b6;
+    height: 100%;
+    color: black;
+    padding-top: 2rem;
+    padding-left: 3rem;
+    min-height: 100vh;
+}
+
+.ErrorScreen-heading {
+    font-size: 2.7rem;
+    color: #ffcf32;
+    text-shadow: 0 1px 2px rgba(0,0,0,1);
+    margin-bottom: 1rem;
+}
+
+.ErrorScreen-directions {
+    font-weight: 700;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.ErrorScreen-guidelines {
+    margin-left: 2rem;
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+.ErrorScreen-guidelines-guideline {
+    margin-bottom: .5rem;
+}
+
+.ErrorScreen-guidelines-guideline-example {
+    display: inline-block;
+    font-size: 1rem;
+    margin-left: 1rem;
+}
+
+.highlight {
+    text-decoration: underline;
+}
+
+.ErrorScreen-countries {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 100rem;
+    font-size: 1rem;
+    margin-left: 4rem;
+}

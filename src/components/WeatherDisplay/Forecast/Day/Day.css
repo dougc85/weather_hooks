@@ -1,0 +1,25 @@
+.Day {
+
+}
+
+.Day-name {
+    font-size: 1.2rem;
+}
+
+.Day-icon {
+    height: 4rem;
+}
+
+.Day-temps {
+    font-size: 1.2rem;
+
+}
+
+.Day-temps-min {
+
+}
+
+.Day-temps-max {
+    color: rgb(133, 35, 0);
+    margin-left: .5rem;
+}

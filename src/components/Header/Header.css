@@ -1,0 +1,26 @@
+.Header {
+    background-color: #ecf0f1;
+    padding: 1rem 1rem 1rem 1.7rem;
+    border-bottom: 1px solid #2c3e50;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 2.4rem;
+}
+
+.Header-titlebox {
+    cursor: pointer;
+}
+
+.Header-title {
+    font-size: 1.5rem;
+    display: inline-block;
+}
+
+.Header-cloudyImg {
+    display: inline-block;
+    width: 2rem;
+    margin-left: 1rem;
+    margin-bottom: -.5rem;
+}

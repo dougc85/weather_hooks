@@ -1,0 +1,34 @@
+.LoadingScreen {
+    background-color: #6294b6;
+    height: 100vh;
+    color: #2c3e50;
+}
+
+.LoadingScreen-heading {
+    font-weight: 700;
+    font-size: 3rem;
+    color: #ffcf32;
+    text-align: center;
+    padding-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+.LoadingScreen-sun {
+    display: block;
+    margin: 0 auto;
+    width: 10rem;
+    animation-name: spin;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}

@@ -1,0 +1,33 @@
+.Temp {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: black;
+    width: 33%;
+}
+
+.Temp-container {
+    margin-bottom: 1rem;
+}
+
+.Temp-current {
+    font-size: 5rem;
+    color: #ffcf32;
+    text-shadow: 0 1px 2px rgba(0,0,0,1);
+}
+
+.Temp-feels {
+    font-size: 1.5rem;
+}
+
+.Temp-change-units {
+    display: block;
+    background-color: #2c3e50;
+    border: none;
+    margin: 0 auto;
+    padding: .4rem;
+    border-radius: 10px;
+    border: 1px solid #2c3e50;
+    color: #ecf0f1;
+    cursor: pointer;
+}

@@ -1,0 +1,50 @@
+.FrontSearch {
+    background-color: #6294b6;
+    height: 100%;
+    color: #2c3e50;
+    min-height: 100vh;
+}
+
+.FrontSearch-formbox {
+    margin-top: 10rem;
+    display: flex;
+    justify-content: center;
+}
+
+.FrontSearch-directions {
+    display: block;
+    padding-left: 1rem;
+    margin-top: 2rem;
+    font-size: 2rem;
+    color: black;
+}
+
+.FrontSearch-options {
+    list-style: none;
+    margin-top: 1rem;
+    font-weight: 700;
+}
+
+.FrontSearch-options-option {
+    margin-bottom: .5rem;
+    
+}
+
+.FrontSearch-options-option-direction {
+    display: block;
+    color: #ffcf32;
+    text-shadow: 0 1px 2px rgba(0,0,0,1);
+}
+
+.us-only {
+    font-size: .9rem;
+    margin-left: .5rem;
+}
+
+.FrontSearch-options-option-example {
+    display: block;
+    font-weight: 500;
+    font-size: 1.2rem;
+    margin-left: 1rem;
+    margin-top: .2rem;
+}

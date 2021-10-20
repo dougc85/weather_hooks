@@ -1,0 +1,16 @@
+.DateInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: black;
+    width: 33%;
+}
+
+.DateInfo-day {
+    font-size: 3rem;
+}
+
+.DateInfo-time {
+    font-size: 2rem;
+}
